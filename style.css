@@ -1,0 +1,88 @@
+/* Configurações gerais da página */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Caixa principal que centraliza o conteúdo */
+.container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+}
+
+h1 {
+    color: #333333;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #666666;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+
+/* Estilo do número do contador */
+.contador-box {
+    margin-bottom: 25px;
+}
+
+#valor-contador {
+    font-size: 4rem;
+    font-weight: bold;
+    color: #007bff;
+    transition: color 0.3s ease;
+}
+
+/* Área dos botões */
+.botoes-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+/* Estilo padrão dos botões */
+.btn {
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.1s;
+}
+
+#btn-diminuir {
+    background-color: #dc3545;
+    color: white;
+}
+
+#btn-resetar {
+    background-color: #6c757d;
+    color: white;
+}
+
+#btn-aumentar {
+    background-color: #28a745;
+    color: white;
+}
+
+/* Efeito de passar o mouse por cima (Hover) */
+.btn:hover {
+    opacity: 0.9;
+    transform: translateY(-2px);
+}
+
+/* Efeito de clique */
+.btn:active {
+    transform: translateY(
